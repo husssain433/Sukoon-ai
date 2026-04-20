@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Outfit:wght@400;600;700&family=Noto+Sans+Arabic:wght@400;700&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-display: "Outfit", sans-serif;
+  --font-urdu: "Noto Sans Arabic", "Inter", sans-serif;
+  
+  --color-sakoon-cream: #FDFBF7;
+  --color-sakoon-teal: #0D4D4D;
+  --color-sakoon-clay: #D97706;
+  --color-sakoon-sage: #8A9A5B;
+}
+
+body {
+  background-color: var(--color-sakoon-cream);
+  color: var(--color-sakoon-teal);
+  font-family: var(--font-sans);
+}
+
+.urdu {
+  font-family: var(--font-urdu);
+}
